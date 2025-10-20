@@ -19,14 +19,7 @@
 📖 Descripción
 --------------
 
-Este proyecto es una aplicación móvil en **Android Jetpack Compose** con arquitectura **MVVM**.Implementa un flujo de registro de usuario dividido en dos pantallas:
-
-1.  **Datos Personales** (nombre, apellido, edad).
-    
-2.  **Datos de Contacto** (teléfono, email).
-    
-
-Cada pantalla valida sus campos antes de permitir avanzar y, al finalizar, se muestra un mensaje confirmando el guardado.
+Este proyecto es una aplicación móvil en **Android Jetpack Compose**
 
 🛠️ Tecnologías utilizadas
 --------------------------
@@ -35,33 +28,17 @@ Cada pantalla valida sus campos antes de permitir avanzar y, al finalizar, se mu
     
 *   🎨 **Jetpack Compose** para la interfaz de usuario declarativa
     
-*   🏗️ **MVVM + StateFlow** para la gestión del estado
-    
 *   🎭 **Material 3 Theme** con tipografía y colores personalizados
     
 *   📦 **Android Studio Giraffe** como entorno de desarrollo
-    
 
-📂 Estructura del proyecto
---------------------------
-
-app/   
-├── ui/   │   
-├── theme/        # 🎨 Archivos de colores, tipografía y tema   │   
-├── PersonalDataActivity.kt   │   
-├── ContactDataActivity.kt   
-├── viewmodel/   │   
-├── PersonalViewModel.kt   │   
-├── ContactViewModel.kt   
-├── MainActivity.kt   # 🚀 Punto de entrada   
-├── AndroidManifest.xml   `
 
 🚀 Instalación y ejecución
 --------------------------
 
 ### 🔹 1. Clonar el repositorio
 
-git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formulario   `
+git clone https://github.com/usuario/proyecto-formulario.git cd proyecto-formulario   `
 
 
 ### 🔹 2. Abrir en Android Studio
@@ -92,35 +69,14 @@ git clone https://github.com/usuario/proyecto-formulario.git  cd proyecto-formul
     
 3.  Seleccionar el dispositivo en Android Studio y ejecutar ▶.
 
-    
-
-🧩 Flujo de la aplicación
--------------------------
-
-1.  El usuario llena sus **datos personales** → botón **Siguiente**.
-    
-2.  Llena sus **datos de contacto** → botón **Guardar**.
-    
-3.  Se muestra un **Toast de confirmación** ✅.
-    
-
 
 ✨ Mejores prácticas aplicadas
 -----------------------------
 
 *   📌 Separación clara de capas (**UI**, **ViewModel**, **Theme**).
     
-*   ⚡ Uso de **StateFlow** para un manejo reactivo del estado.
-    
 *   🎨 Consistencia en colores y tipografía con MaterialTheme.
     
 *   🔒 Validación de campos antes de permitir navegación.
     
 *   📂 Código organizado y fácil de escalar.
-    
-
-
-📜 Licencia
------------
-
-Este proyecto está bajo la licencia MIT.
