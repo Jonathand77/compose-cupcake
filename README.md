@@ -1,10 +1,10 @@
 📱 basic-android-kotlin-compose-training-cupcake
 ====================================================
 
-![GitHub repo size](https://img.shields.io/github/repo-size/jonathand77/LabsCM20252-Gr03)
-![GitHub contributors](https://img.shields.io/github/contributors/jonathand77/LabsCM20252-Gr03)
-![GitHub last commit](https://img.shields.io/github/last-commit/jonathand77/LabsCM20252-Gr03)
-![Languages](https://img.shields.io/github/languages/count/jonathand77/LabsCM20252-Gr03)
+![GitHub repo size](https://img.shields.io/github/repo-size/jonathand77/compose-cupcake)
+![GitHub contributors](https://img.shields.io/github/contributors/jonathand77/compose-cupcake)
+![GitHub last commit](https://img.shields.io/github/last-commit/jonathand77/compose-cupcake)
+![Languages](https://img.shields.io/github/languages/count/jonathand77/compose-cupcake)
 
 ## 👥 Integrantes
 
